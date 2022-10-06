@@ -21,7 +21,7 @@
 
 | **R3**     | **Estilo del código**         |
 | --------------: | :------------------- |
-| **Descripción** | Estilo del código según las normas internas de Laravel para el código y para las plantillas de las vistas.             |
+| **Descripción** | Estilo del código según las normas internas de Laravel Framework para el código y para las plantillas de las vistas.             |
 | **Prioridad**   | Mínimo           |
 | **Tipo**        | Técnico                |
 | **Complejidad** | Fácil         |
@@ -48,7 +48,7 @@
 
 | **R6**     | **Documentación**         |
 | --------------: | :------------------- |
-| **Descripción** | Documentación publicada en GitHub Pages a partir del contenido del directorio /docs:  - Contenido:   - Guía general.   - API. - Formato: GitHub flavored Markdown (fuente) y HTML (resultado). - Usar make docs para crear la documentación. - Opcional: conversión a PDF.             |
+| **Descripción** | Documentación publicada en GitHub Pages:  - Contenido:   - Guía general.   - API (opcional).             |
 | **Prioridad**   | Mínimo           |
 | **Tipo**        | Técnico                |
 | **Complejidad** | Fácil         |
@@ -75,7 +75,7 @@
 
 | **R9**     | **Rama master**         |
 | --------------: | :------------------- |
-| **Descripción** | La rama master debe reflejar en todo momento el estado más estable de la aplicación, de manera que:  - La rama master no debe contener bugs conocidos. - El desarrollo deberá hacerse en otras ramas creadas a tal efecto (una distinta por cada funcionalidad) y se irán combinado con la master una vez que se haya implementado la funcionalidad correspondiente. - La release actual en Heroku corresponderá siempre con el último commit de la rama master (usar los deploys automáticos de Heroku conectando la aplicación de Heroku con la rama master de GitHub).              |
+| **Descripción** | La rama master debe reflejar en todo momento el estado más estable de la aplicación, de manera que:  - La rama master no debe contener bugs conocidos. - El desarrollo deberá hacerse en otras ramas creadas a tal efecto (una distinta por cada funcionalidad) y se irán combinado con la master una vez que se haya implementado la funcionalidad correspondiente. - La release actual en el servicio de cloud computing corresponderá siempre con el último commit de la rama master.             |
 | **Prioridad**   | Mínimo           |
 | **Tipo**        | Técnico                |
 | **Complejidad** | Fácil         |
@@ -93,7 +93,7 @@
 
 | **R11**     | **Final de cada iteración**         |
 | --------------: | :------------------- |
-| **Descripción** | Al final de cada iteración:  - Se realiza el lanzamiento que toque (v1, v2 o v3), etiquetando el commit correspondiente con el hito adecuado. - Se actualiza y publica la documentación. - Al final del Proyecto, se tiene que cumplir lo siguiente:   - Todas las incidencias cerradas con su debida justificación.   - En el backlog sólo pueden quedar tarjetas con prioridad opcional.   - El lanzamiento v3 desplegado en la nube.   - La documentación correctamente actualizada y publicada.              |
+| **Descripción** | Al final de cada iteración:  - Se realiza el lanzamiento que toque (v1, v2 o v3), etiquetando el commit correspondiente con el hito adecuado. - Se actualiza y publica la documentación. - Al final del Proyecto, se tiene que cumplir lo siguiente:   - Todas las incidencias cerradas con su debida justificación.   - En el backlog sólo pueden quedar tarjetas con prioridad opcional.   - El lanzamiento v3 desplegado en la nube.   - La documentación correctamente actualizada y publicada.             |
 | **Prioridad**   | Mínimo           |
 | **Tipo**        | Técnico                |
 | **Complejidad** | Fácil         |
@@ -145,9 +145,9 @@
 | **Entrega**     | v1             |
 
 
-| **R17**     | **jQuery, jQuery UI**         |
+| **R17**     | **Alpine.js**         |
 | --------------: | :------------------- |
-| **Descripción** | Uso de la librería jQuery, jQuery UI.             |
+| **Descripción** | Uso de la librería Alpine.js.             |
 | **Prioridad**   | Mínimo           |
 | **Tipo**        | Técnico                |
 | **Complejidad** | Fácil         |
@@ -183,16 +183,16 @@
 
 | **R21**     | **PHP**         |
 | --------------: | :------------------- |
-| **Descripción** | Usar PHP 7.3 ó superior.             |
+| **Descripción** | Usar PHP 8.0 ó superior.             |
 | **Prioridad**   | Mínimo           |
 | **Tipo**        | Técnico                |
 | **Complejidad** | Fácil         |
 | **Entrega**     | v1             |
 
 
-| **R22**     | **Yii2 Framework**         |
+| **R22**     | **Laravel Framework**         |
 | --------------: | :------------------- |
-| **Descripción** | Usar Yii2 Framework versión 2.0.29 ó superior.             |
+| **Descripción** | Usar Laravel Framework 9.0 superior.             |
 | **Prioridad**   | Mínimo           |
 | **Tipo**        | Técnico                |
 | **Complejidad** | Fácil         |
@@ -208,34 +208,25 @@
 | **Entrega**     | v1             |
 
 
-| **R24**     | **Heroku**         |
+| **R24**     | **Cloud computing**         |
 | --------------: | :------------------- |
-| **Descripción** | Despliegue de la aplicación en la plataforma Heroku.             |
+| **Descripción** | 4. Despliegue de la aplicación en alguna plataforma de cloud computing (tipo Heroku, Fly.io, Railway o similar) a determinar por el profesor.             |
 | **Prioridad**   | Mínimo           |
 | **Tipo**        | Técnico                |
 | **Complejidad** | Fácil         |
 | **Entrega**     | v1             |
 
 
-| **R25**     | **Codeception**         |
+| **R25**     | **Pruebas funcionales**         |
 | --------------: | :------------------- |
-| **Descripción** | Pruebas funcionales con Codeception.             |
+| **Descripción** | Creación de pruebas funcionales.             |
 | **Prioridad**   | Mínimo           |
 | **Tipo**        | Técnico                |
 | **Complejidad** | Fácil         |
 | **Entrega**     | v1             |
 
 
-| **R26**     | **Code Climate**         |
-| --------------: | :------------------- |
-| **Descripción** | Estilo y mantenibilidad del código fuente validados por Code Climate.             |
-| **Prioridad**   | Mínimo           |
-| **Tipo**        | Técnico                |
-| **Complejidad** | Fácil         |
-| **Entrega**     | v1             |
-
-
-| **R27**     | **Aplicación escalable**         |
+| **R26**     | **Aplicación escalable**         |
 | --------------: | :------------------- |
 | **Descripción** | La aplicación ha de ser escalable.             |
 | **Prioridad**   | Mínimo           |
@@ -244,16 +235,7 @@
 | **Entrega**     | v1             |
 
 
-| **R28**     | **Tecnología AJAX**         |
-| --------------: | :------------------- |
-| **Descripción** | La aplicación debe hacer en algún momento un uso apropiado de la tecnología AJAX.             |
-| **Prioridad**   | Mínimo           |
-| **Tipo**        | Técnico                |
-| **Complejidad** | Fácil         |
-| **Entrega**     | v1             |
-
-
-| **R29**     | **Etiquetas semánticas de HTML5**         |
+| **R27**     | **Etiquetas semánticas de HTML5**         |
 | --------------: | :------------------- |
 | **Descripción** | Para estructurar el contenido se utilizarán las etiquetas semánticas de HTML5.             |
 | **Prioridad**   | Mínimo           |
@@ -262,7 +244,7 @@
 | **Entrega**     | v1             |
 
 
-| **R30**     | **Presentación mediante CSS**         |
+| **R28**     | **Presentación mediante CSS**         |
 | --------------: | :------------------- |
 | **Descripción** | Todo lo relacionado con la presentación se trabajará mediante CSS.             |
 | **Prioridad**   | Mínimo           |
@@ -271,7 +253,7 @@
 | **Entrega**     | v1             |
 
 
-| **R31**     | **Diseño flexible**         |
+| **R29**     | **Diseño flexible**         |
 | --------------: | :------------------- |
 | **Descripción** | El diseño será flexible.             |
 | **Prioridad**   | Mínimo           |
@@ -280,7 +262,7 @@
 | **Entrega**     | v1             |
 
 
-| **R32**     | **Transiciones, transformaciones, animaciones y contenido multimedia**         |
+| **R30**     | **Transiciones, transformaciones, animaciones y contenido multimedia**         |
 | --------------: | :------------------- |
 | **Descripción** | Existirán transiciones, transformaciones, animaciones y contenido multimedia.             |
 | **Prioridad**   | Mínimo           |
@@ -289,7 +271,7 @@
 | **Entrega**     | v1             |
 
 
-| **R33**     | **Uso de microdatos**         |
+| **R31**     | **Uso de microdatos**         |
 | --------------: | :------------------- |
 | **Descripción** | Uso de microdatos.             |
 | **Prioridad**   | Mínimo           |
@@ -298,7 +280,7 @@
 | **Entrega**     | v1             |
 
 
-| **R34**     | **Validación HTML5, CSS3 y accesibilidad**         |
+| **R32**     | **Validación HTML5, CSS3 y accesibilidad**         |
 | --------------: | :------------------- |
 | **Descripción** | Se deberá comprobar que el código realizado supera:  - El validador para HTML5, CSS3. - Nivel de accesibilidad AA. - Prueba del seis.              |
 | **Prioridad**   | Mínimo           |
@@ -307,7 +289,7 @@
 | **Entrega**     | v1             |
 
 
-| **R35**     | **Diseño para varias resoluciones**         |
+| **R33**     | **Diseño para varias resoluciones**         |
 | --------------: | :------------------- |
 | **Descripción** | Implementar el diseño para resoluciones grandes y pequeñas.             |
 | **Prioridad**   | Mínimo           |
@@ -316,16 +298,16 @@
 | **Entrega**     | v1             |
 
 
-| **R36**     | **Varios navegadores**         |
+| **R34**     | **Varios navegadores**         |
 | --------------: | :------------------- |
-| **Descripción** | Comprobar que el diseño es correcto en los siguientes navegadores:  - Internet Explorer. - Chrome. - Mozilla Firefox. - Opera.              |
+| **Descripción** | Comprobar que el diseño es correcto en los siguientes navegadores:  - Microsoft Edge. - Chrome. - Mozilla Firefox. - Opera.              |
 | **Prioridad**   | Mínimo           |
 | **Tipo**        | Técnico                |
 | **Complejidad** | Fácil         |
 | **Entrega**     | v1             |
 
 
-| **R37**     | **Despliegue en un Host**         |
+| **R35**     | **Despliegue en un Host**         |
 | --------------: | :------------------- |
 | **Descripción** | Realizar el despliegue en un Host:  - Utilizando algún servicio gratuito de hosting como los vistos en clase  - Instalar / configurar o solicitar el software necesario para desplegar el proyecto.              |
 | **Prioridad**   | Mínimo           |
@@ -334,13 +316,256 @@
 | **Entrega**     | v1             |
 
 
-| **R38**     | **Despliegue en un servidor local**         |
+| **R36**     | **Despliegue en un servidor local**         |
 | --------------: | :------------------- |
 | **Descripción** | Realizar un despliegue en un servidor local usando y configurando tres máquinas virtuales para:  - Crear un servicio de Nombres de dominio. - Gestionar y administrar el servidor Apache tanto en Windows como Linux:   - Instalar el servidor y configurarlo.   - Configurar directivas.   - Usar directorios virtuales y redireccionamientos.   - Usar diferentes módulos estáticos y dinámicos.   - Usar autenticaciones.   - Usar ficheros de configuración personalizada de directorios.   - Usar HTTPS y certificados Digitales.              |
 | **Prioridad**   | Mínimo           |
 | **Tipo**        | Técnico                |
 | **Complejidad** | Fácil         |
 | **Entrega**     | v1             |
+
+
+| **R37**     | **Crear la base de datos**         |
+| --------------: | :------------------- |
+| **Descripción** | Crear la base de datos que almacenará la información de atletas, entrenadores, propietarios, horarios, etc.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R38**     | **Añadir usuarios**         |
+| --------------: | :------------------- |
+| **Descripción** | Añadir un usuario en la base de datos.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R39**     | **Modificar usuarios**         |
+| --------------: | :------------------- |
+| **Descripción** | Modificar un usuario en la base de datos.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R40**     | **Eliminar usuarios**         |
+| --------------: | :------------------- |
+| **Descripción** | Eliminar un usuario en la base de datos.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R41**     | **Añadir horarios**         |
+| --------------: | :------------------- |
+| **Descripción** | Añadir horarios en la base de datos.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R42**     | **Modificar horarios**         |
+| --------------: | :------------------- |
+| **Descripción** | Modificar horarios en la base de datos.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R43**     | **Eliminar horarios**         |
+| --------------: | :------------------- |
+| **Descripción** | Eliminar horarios en la base de datos.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R44**     | **Registrarse**         |
+| --------------: | :------------------- |
+| **Descripción** | Registrarse como usuario en la aplicación             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R45**     | **Iniciar sesión**         |
+| --------------: | :------------------- |
+| **Descripción** | Iniciar sesión en la aplicación             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R46**     | **Cerrar sesión**         |
+| --------------: | :------------------- |
+| **Descripción** | Cerrar sesión en la aplicación             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R47**     | **Modificar perfil usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | Modificar perfil del usuario logueado.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R48**     | **Foto de perfil**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios podrán subir/modificar su foto de perfil             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R49**     | **Buscar usuarios**         |
+| --------------: | :------------------- |
+| **Descripción** | Buscar usuarios en la base de datos (Propietarios y entrenadores).             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R50**     | **Ver usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | Visualizar perfil de un usuario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R51**     | **Darse de baja de la aplicación**         |
+| --------------: | :------------------- |
+| **Descripción** | Eliminar la cuenta del usuario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R52**     | **Definir roles**         |
+| --------------: | :------------------- |
+| **Descripción** | Definir la manera más eficiente de asignar roles a los usuarios:  - Invitados. (Vista limitada) - Alumnos. (Tarifa o bono activo) - Exalumnos. (No tiene tarifa o bono activo) - Entrenadores. - Administradores. - Propietarios.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R53**     | **Recuperar contraseña**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios podrán recuperar o solicitar una nueva contraseña a través de un correo electrónico.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R54**     | **Cambiar contraseña**         |
+| --------------: | :------------------- |
+| **Descripción** | Posibilidad de cambiar la contraseña.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R55**     | **Reservar clase**         |
+| --------------: | :------------------- |
+| **Descripción** | Reservar clase en el horario establecido.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R56**     | **Cancelar clase**         |
+| --------------: | :------------------- |
+| **Descripción** | Cancelar clase de una reserva previa.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R57**     | **Sistema de mensajería**         |
+| --------------: | :------------------- |
+| **Descripción** | Sistema de mensajería solo disponible para entrenadores, administradores y propietarios con envío masivo a atletas.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v2             |
+
+
+| **R58**     | **Panel de configuración**         |
+| --------------: | :------------------- |
+| **Descripción** | Panel de configuración solo disponible para administradores y propietarios:  - Plantillas de horarios - Tarifas - Tipos de clases/entrenamientos - Pagos             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v2             |
+
+
+| **R59**     | **Pasarela de pago**         |
+| --------------: | :------------------- |
+| **Descripción** | Implementar pasarela de pago             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R60**     | **Añadir Bitcoin como método de pago**         |
+| --------------: | :------------------- |
+| **Descripción** | Añadir Bitcoin como método de pago a través de BTCPay.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R61**     | **Benchmarks**         |
+| --------------: | :------------------- |
+| **Descripción** | Añadir sección de “Benchmarks” donde cada usuario puede guardar y hacer un seguimiento de sus marcas:  - Pesos - Distancias - Wods             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R62**     | **Mi cuerpo**         |
+| --------------: | :------------------- |
+| **Descripción** | Añadir sección de “Mi cuerpo” donde cada usuario puede guardar y hacer un seguimiento de:  - Peso - IMC - Medidas             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R63**     | **Estadísticas**         |
+| --------------: | :------------------- |
+| **Descripción** | Panel de estadísticas relevantes para propietarios/gestores.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
 
 
 
@@ -364,25 +589,50 @@
 | (**R14**) Manejo de eventos | Mínimo | Técnico | Fácil | v1 | 
 | (**R15**) DOM | Mínimo | Técnico | Fácil | v1 | 
 | (**R16**) Almacenamiento en el lado del cliente | Mínimo | Técnico | Fácil | v1 | 
-| (**R17**) jQuery, jQuery UI | Mínimo | Técnico | Fácil | v1 | 
+| (**R17**) Alpine.js | Mínimo | Técnico | Fácil | v1 | 
 | (**R18**) Plugin no trabajado en clase | Mínimo | Técnico | Fácil | v1 | 
 | (**R19**) Utilización de AJAX | Mínimo | Técnico | Fácil | v1 | 
 | (**R20**) ECMAScript2015 (ES6) | Mínimo | Técnico | Fácil | v1 | 
 | (**R21**) PHP | Mínimo | Técnico | Fácil | v1 | 
-| (**R22**) Yii2 Framework | Mínimo | Técnico | Fácil | v1 | 
+| (**R22**) Laravel Framework | Mínimo | Técnico | Fácil | v1 | 
 | (**R23**) PostgreSQL | Mínimo | Técnico | Fácil | v1 | 
-| (**R24**) Heroku | Mínimo | Técnico | Fácil | v1 | 
-| (**R25**) Codeception | Mínimo | Técnico | Fácil | v1 | 
-| (**R26**) Code Climate | Mínimo | Técnico | Fácil | v1 | 
-| (**R27**) Aplicación escalable | Mínimo | Técnico | Fácil | v1 | 
-| (**R28**) Tecnología AJAX | Mínimo | Técnico | Fácil | v1 | 
-| (**R29**) Etiquetas semánticas de HTML5 | Mínimo | Técnico | Fácil | v1 | 
-| (**R30**) Presentación mediante CSS | Mínimo | Técnico | Fácil | v1 | 
-| (**R31**) Diseño flexible | Mínimo | Técnico | Fácil | v1 | 
-| (**R32**) Transiciones, transformaciones, animaciones y contenido multimedia | Mínimo | Técnico | Fácil | v1 | 
-| (**R33**) Uso de microdatos | Mínimo | Técnico | Fácil | v1 | 
-| (**R34**) Validación HTML5, CSS3 y accesibilidad | Mínimo | Técnico | Fácil | v1 | 
-| (**R35**) Diseño para varias resoluciones | Mínimo | Técnico | Fácil | v1 | 
-| (**R36**) Varios navegadores | Mínimo | Técnico | Fácil | v1 | 
-| (**R37**) Despliegue en un Host | Mínimo | Técnico | Fácil | v1 | 
-| (**R38**) Despliegue en un servidor local | Mínimo | Técnico | Fácil | v1 | 
+| (**R24**) Cloud computing | Mínimo | Técnico | Fácil | v1 | 
+| (**R25**) Pruebas funcionales | Mínimo | Técnico | Fácil | v1 | 
+| (**R26**) Aplicación escalable | Mínimo | Técnico | Fácil | v1 | 
+| (**R27**) Etiquetas semánticas de HTML5 | Mínimo | Técnico | Fácil | v1 | 
+| (**R28**) Presentación mediante CSS | Mínimo | Técnico | Fácil | v1 | 
+| (**R29**) Diseño flexible | Mínimo | Técnico | Fácil | v1 | 
+| (**R30**) Transiciones, transformaciones, animaciones y contenido multimedia | Mínimo | Técnico | Fácil | v1 | 
+| (**R31**) Uso de microdatos | Mínimo | Técnico | Fácil | v1 | 
+| (**R32**) Validación HTML5, CSS3 y accesibilidad | Mínimo | Técnico | Fácil | v1 | 
+| (**R33**) Diseño para varias resoluciones | Mínimo | Técnico | Fácil | v1 | 
+| (**R34**) Varios navegadores | Mínimo | Técnico | Fácil | v1 | 
+| (**R35**) Despliegue en un Host | Mínimo | Técnico | Fácil | v1 | 
+| (**R36**) Despliegue en un servidor local | Mínimo | Técnico | Fácil | v1 | 
+| (**R37**) Crear la base de datos | Importante | Funcional | Fácil | v1 | 
+| (**R38**) Añadir usuarios | Importante | Funcional | Fácil | v1 | 
+| (**R39**) Modificar usuarios | Importante | Funcional | Fácil | v1 | 
+| (**R40**) Eliminar usuarios | Importante | Funcional | Fácil | v1 | 
+| (**R41**) Añadir horarios | Importante | Funcional | Fácil | v1 | 
+| (**R42**) Modificar horarios | Importante | Funcional | Fácil | v1 | 
+| (**R43**) Eliminar horarios | Importante | Funcional | Fácil | v1 | 
+| (**R44**) Registrarse | Importante | Funcional | Fácil | v1 | 
+| (**R45**) Iniciar sesión | Importante | Funcional | Fácil | v1 | 
+| (**R46**) Cerrar sesión | Importante | Funcional | Fácil | v1 | 
+| (**R47**) Modificar perfil usuario | Importante | Funcional | Fácil | v1 | 
+| (**R48**) Foto de perfil | Importante | Funcional | Fácil | v1 | 
+| (**R49**) Buscar usuarios | Importante | Funcional | Fácil | v1 | 
+| (**R50**) Ver usuario | Importante | Funcional | Fácil | v1 | 
+| (**R51**) Darse de baja de la aplicación | Importante | Funcional | Fácil | v1 | 
+| (**R52**) Definir roles | Importante | Funcional | Media | v1 | 
+| (**R53**) Recuperar contraseña | Importante | Funcional | Fácil | v1 | 
+| (**R54**) Cambiar contraseña | Importante | Funcional | Fácil | v1 | 
+| (**R55**) Reservar clase | Importante | Funcional | Fácil | v1 | 
+| (**R56**) Cancelar clase | Importante | Funcional | Fácil | v1 | 
+| (**R57**) Sistema de mensajería | Opcional | Funcional | Difícil | v2 | 
+| (**R58**) Panel de configuración | Opcional | Funcional | Difícil | v2 | 
+| (**R59**) Pasarela de pago | Importante | Funcional | Media | v2 | 
+| (**R60**) Añadir Bitcoin como método de pago | Opcional | Funcional | Difícil | v3 | 
+| (**R61**) Benchmarks | Opcional | Funcional | Difícil | v3 | 
+| (**R62**) Mi cuerpo | Opcional | Funcional | Difícil | v3 | 
+| (**R63**) Estadísticas | Opcional | Funcional | Difícil | v3 | 
